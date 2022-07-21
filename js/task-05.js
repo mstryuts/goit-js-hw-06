@@ -3,7 +3,8 @@ const mySpan = document.querySelector('#name-output');
 
 const updateInpute = (event) => {
 
-event.currentTarget === '' ? mySpan.textContent = 'Anonymous' : mySpan.textContent = event.currentTarget.value;
+    event.currentTarget === '' ? mySpan.textContent = 'Anonymous'
+        : mySpan.textContent = event.currentTarget.value;
 }
 
 
