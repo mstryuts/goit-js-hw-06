@@ -8,7 +8,8 @@ const onClickDecr = () =>{
     value.textContent = counterValue;
 }
 
-const onClickIncr = () =>{
+const onClickIncr = (event) => {
+    console.log(event)
     counterValue += 1;
     value.textContent = counterValue;
 }
