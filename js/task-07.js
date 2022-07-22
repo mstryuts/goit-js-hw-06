@@ -1,9 +1,8 @@
-const input = document.getElementById('font-size-control')
-const text = document.getElementById('text')
+const inputEl = document.getElementById('font-size-control');
+const textEl = document.getElementById('text');
 
-const fontResizeScroll = (event) => {
-    // text.style.fontSize = `${input.value}px`
-    text.style.fontSize = `${input.value}px`
+const fontResizeScroll = () => {
+    textEl.style.fontSize = `${inputEl.value}px`;
 }
 
-input.addEventListener('input', fontResizeScroll)
+inputEl.addEventListener('input', fontResizeScroll);
