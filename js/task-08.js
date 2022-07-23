@@ -13,6 +13,6 @@ function handleSubmit(event) {
     return alert("Заполните все поля!");
   }
 
-  console.log(`Login: ${email.value}, Password: ${password.value}`);
+  console.log(`Логин: ${email.value}, Пароль: ${password.value}`);
   event.currentTarget.reset();
 }
