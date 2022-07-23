@@ -6,7 +6,7 @@ const colorHexName = document.querySelector('.color');
 const changeColorBtn = document.querySelector('.change-color');
 
 const onClickColorChange = () => {
-  document.body.style.background = `${getRandomHexColor()}`;
+  document.body.style.background = getRandomHexColor();
   colorHexName.textContent = document.body.style.background;
 };
 
